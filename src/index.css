@@ -1,13 +1,47 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+body{
+    height: 100vh;
+    background: url(./assets/images/background.png) no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a{
+    color: #FFFFFF;
+}
+
+.about{
+    font-family: 'Pretendard';
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-title{
+    font-family: 'Pretendard';
+    margin-top: -50px;
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.sub-title{
+    position: absolute;
+    top: 96px;
+    left: 230px;
+    font-family: 'Pretendard';
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+footer{
+    color: #FFFFFF;
+    font-family: 'Pretendard';
+    font-weight: 700;
+    text-align: right;
+    font-size: 10px;
 }
